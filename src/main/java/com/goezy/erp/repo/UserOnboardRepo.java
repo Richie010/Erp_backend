@@ -1,0 +1,8 @@
+package com.goezy.erp.repo;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserOnboardRepo {
+
+}
