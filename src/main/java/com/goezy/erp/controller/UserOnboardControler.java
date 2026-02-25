@@ -17,6 +17,9 @@ import lombok.val;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
+/**
+ * @author RICHIE
+ */
 
 @RestController
 @RequestMapping("/api/user")
