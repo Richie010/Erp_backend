@@ -42,6 +42,7 @@ public class UserOnboardControler {
 		subContractorDto.setUserid(Long.parseLong("1010"));
 		subContractorDto.setFirstname("Richard");
 		subContractorDto.setLastname("J");
+		subContractorDto.setEmail("richie@gmail.com");
 		}
 		
 		return ResponseMessage.builder().statusCode("M200").statusDesc("Api Sucess").responseMessage(ResponseDto.builder().subContractorDto(subContractorDto).build()).build() ;
