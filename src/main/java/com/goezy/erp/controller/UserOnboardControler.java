@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 /**
  * @author RICHIE
+ * @version 1.0
  */
 
 @RestController
@@ -32,7 +33,6 @@ public class UserOnboardControler {
 	
 	@PostMapping("/create")
 	public ResponseMessage addUser(@RequestBody RequestMessage message) {
-
 		SubContractorDto subContractorDto = new SubContractorDto();
 
 		if(message.getRequestmessage().getUserid()!=null) {
